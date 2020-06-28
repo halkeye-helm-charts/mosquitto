@@ -1,6 +1,6 @@
 ** Please be patient while the chart is being deployed **
 
-Mosquitto can be accessed within the cluster on port 1883 at {{ template "mosquitto.fullname" . }}.{{ .Release.Namespace }}.svc.local
+Mosquitto can be accessed within the cluster on port 1883 at {{ template "mosquitto.fullname" . }}.{{ .Release.Namespace }}.svc.cluster.local
 
 To access for outside the cluster, perform the following steps:
 

@@ -6,7 +6,7 @@ replicaCount: 1
 
 image:
   repository: eclipse-mosquitto
-  tag: 1.6.8
+  tag: "{{ .Chart.AppVersion }}"
   pullPolicy: IfNotPresent
 
 imagePullSecrets: []
